@@ -17,7 +17,7 @@ const router = new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld,
-      meta: { requireAuth: true }
+      meta: { requiresAuth: true }
     },
     {
       path: '/signup',
